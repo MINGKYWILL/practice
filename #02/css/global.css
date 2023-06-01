@@ -1,0 +1,13 @@
+@import "/css/reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Basic', sans-serif;
+    background-color: var(--background);
+    color: white;
+}   
