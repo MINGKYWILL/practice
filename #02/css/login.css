@@ -1,10 +1,6 @@
 @import "./global.css";
 @import "./variable.css";
-html,
-body {
-    overflow: hidden;
-    height:100%
-}
+
 body {
     display: flex;
     flex-direction: column;

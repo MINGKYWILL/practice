@@ -1,0 +1,118 @@
+@import "./global.css";
+
+.user-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 40px 10px;
+}
+.user-component img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.user-component__id {
+    color: white;
+    padding-top: 0.3rem;
+}
+.add-profile-btn{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+.continue-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.continue-header {
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+.continue__images {
+    display: flex;
+    list-style: none;
+    overflow-x: auto;
+    margin-bottom: 0;
+}
+.continue-card {
+    background-color: var(--darkerred);
+    width: 160px;
+    height: 270px;
+    border-radius: 10px;
+    padding: 5px;    
+}
+
+.continue__images li {
+    margin-left: 8px;
+}
+.continue__images img {
+    width: 150px;
+    height: 230px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.continue-title {
+    display: block;
+    margin: 2px;
+    padding-left: 3px;
+    font-size: 14.3px;
+}
+
+/* wishlist */
+.mylist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 20px 10px 20px;
+      
+}
+.mylist__header {
+    margin-bottom: 10px;
+    font-size: 23px;
+    border-top: 1px solid var(--darkerred);
+    width: 490px;
+    padding-top: 15px;
+}
+
+.mylist-item {
+    margin-bottom: 20px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    border-radius: 15px;
+
+}
+.mylist-item img {
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 15px;
+}
+.item__title {
+    font-size: 1.2rem;
+}
+.item__starring {
+    font-size: 0.9rem;
+}
+.mylist-play-btn span {
+    background-color: var(--darkerred);
+    font-size: 3rem;
+    border-radius: 50%;
+}

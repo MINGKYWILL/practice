@@ -1,0 +1,15 @@
+.navigation-bar {
+    background-color: rgba(251, 255, 255, 0.6);
+    border-radius: 0 10px 0 0;
+    width: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2.3rem;
+    position: fixed;
+    bottom: 0;
+}
+.navigation-bar span {
+    color: black;
+    font-size: 1.7rem;
+}

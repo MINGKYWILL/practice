@@ -1,0 +1,106 @@
+@import "/css/global.css";
+@import "./variable.css";
+
+html, 
+body {
+    height: 300vh;
+}
+/* search_bar */
+.find-search-bar-form {
+    padding: 0 20rem;   
+}
+.find-search-bar-form div { 
+    width: 100%;
+    min-width: 300px;
+}
+.find-search-bar {
+    border-radius: 12px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: var(--background);
+    outline: none;
+    border-style: 0.2px solid;
+    color: white;
+    font-size: 14px;
+}
+.find-search-bar:focus {
+    background-color: #1C1E21;
+}
+.find-search-bar-form span {
+    position: absolute;
+    right: 25px;
+    bottom: 0.45rem;
+    font: 1rem;
+}
+
+/* best_show */
+.best-show_container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.best-show__img {
+    height: 23rem;
+    width: 23rem; 
+    border-radius: 5px;
+}
+.best-show_container span {
+    position: absolute;
+    left: calc(50% + 5.5rem);
+    background-color: var(--darkerred);
+    font-size: 5rem;
+    border-radius: 50%;
+    bottom: 2rem;
+}
+.best-show_container:before {
+    content: '';
+    background: linear-gradient(to bottom, transparent, black);
+    position: absolute;
+    height: 23rem;
+    width: 23rem;
+}
+.best-show-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.promotion-text {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.best-show_name {
+    margin: 0;
+    color: #B40D03;
+    font-size: 40px;
+}
+/* recommendation */
+.recommendation {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movie-recommendation__title {
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+}
+.movie-recommendation__images {
+    display: flex;
+    list-style: none;
+    overflow-x: auto;
+}
+.movie-recommendation__images li {
+    margin-left: 10px;
+}
+.movie-recommendation__images img {
+    width: 150px;
+    height: 230px;
+    border-radius: 5px;
+}

@@ -1,13 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"); 
 @import "/css/reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
-
-
+@import "/css/variable.css";
+@import "/css/navigation-bar.css";
+@import "./media-query.css";
 * {
     box-sizing: border-box;
 }
-
+html,
 body {
     font-family: 'Basic', sans-serif;
-    background-color: var(--background);
+    background-color: #121212;
     color: white;
+    height: 100%;
+    
 }   
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-relative {
+    position: relative;
+}
